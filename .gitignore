@@ -1,0 +1,41 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Local database (SQLite)
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Uploaded files
+backend/uploads/
+
+# Environment secrets
+.env
+*.env
+!.env.example
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
